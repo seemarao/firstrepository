@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="287710b0-4381-43fc-b2fd-9882e1521050"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="browser5"/>
+	<variables>
+		<var
+		name="NewVariable"
+		id="556cbfe7-df98-43f8-859d-a01ed7621282">
+			F:\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="NewVariable"/>
+			</bindings>
+			<filename>
+				F:\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+			</filename>
+			<workingdir>
+				F:\KeePass Sample\KeePassTestSuite\KeePass
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="browser5Repository"
+	id="17cf6f79-28b6-4080-a3d7-f6d56859ac09"
+	rxversion="6.0"
+	relativepath="browser5Repository.rxrep">
+		<codegen
+		classname="browser5Repository"
+		namespace="browser5"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d2d47dc8-f144-4735-903c-35505e15d31e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

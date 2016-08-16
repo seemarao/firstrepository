@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26e872b12cf3f9f8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Seema Rao"
+		host="PC3"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="05-08-2016 08:33:04"
+		timestampiso="2016-08-05T03:03:04"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.565"
+			timeRelativeToTestModuleStartTime="00:00.566"
+			timeWallClock="08:33:05"
+			time="00:00.565"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.646"
+			timeRelativeToTestModuleStartTime="00:00.647"
+			timeWallClock="08:33:05"
+			time="00:00.646"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserEmail' at 102;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="browser5Repository.Dubber.UserEmail"
+				id="f44439939e9b47469e1adeb19d97bfa4"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.889"
+			timeRelativeToTestModuleStartTime="00:02.890"
+			timeWallClock="08:33:07"
+			time="00:02.889"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="browser5Repository.Dubber.UserEmail"
+				id="f44439939e9b47469e1adeb19d97bfa4"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.615"
+			timeRelativeToTestModuleStartTime="00:04.616"
+			timeWallClock="08:33:09"
+			time="00:04.615"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserEmail' at 102;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="browser5Repository.Dubber.UserEmail"
+				id="f44439939e9b47469e1adeb19d97bfa4"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.359"
+			timeRelativeToTestModuleStartTime="00:05.360"
+			timeWallClock="08:33:10"
+			time="00:05.359"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserEmail' at 145;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="browser5Repository.Dubber.UserEmail"
+				id="f44439939e9b47469e1adeb19d97bfa4"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.095"
+			timeRelativeToTestModuleStartTime="00:06.096"
+			timeWallClock="08:33:11"
+			time="00:06.095"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="browser5Repository.Dubber.UserEmail"
+				id="f44439939e9b47469e1adeb19d97bfa4"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.405"
+			timeRelativeToTestModuleStartTime="00:06.406"
+			timeWallClock="08:33:11"
+			time="00:06.405"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserPassword' at 125;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="browser5Repository.Dubber.UserPassword"
+				id="5c4192d1dc8648bfbd85a77e26e24778"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.204"
+			timeRelativeToTestModuleStartTime="00:07.205"
+			timeWallClock="08:33:12"
+			time="00:07.204"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'P@ssword1' with focus on 'Dubber.UserPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="browser5Repository.Dubber.UserPassword"
+				id="5c4192d1dc8648bfbd85a77e26e24778"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.329"
+			timeRelativeToTestModuleStartTime="00:08.330"
+			timeWallClock="08:33:13"
+			time="00:08.329"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="browser5Repository.Dubber.SubmitButton"
+				id="fa40ee0d70c247e1a3df9b7a2c4b9170"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.067"
+			timeRelativeToTestModuleStartTime="00:09.068"
+			timeWallClock="08:33:14"
+			time="00:09.067"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="118"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.571"
+			timeRelativeToTestModuleStartTime="00:09.572"
+			timeWallClock="08:33:14"
+			time="00:09.571"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dubber' at 1355;159.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="browser5Repository.Dubber.Self"
+				id="3310cc9cdfa042d39f1b7fd2c59af9b1"
+				timeout="30000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.169"
+			timeRelativeToTestModuleStartTime="00:10.170"
+			timeWallClock="08:33:15"
+			time="00:10.169"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dubber' at 1365;539.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="browser5Repository.Dubber.Self"
+				id="3310cc9cdfa042d39f1b7fd2c59af9b1"
+				timeout="30000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.898"
+			timeRelativeToTestModuleStartTime="00:10.899"
+			timeWallClock="08:33:15"
+			time="00:10.898"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.IconCogIconWhite' at 11;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']/i"
+				fullname="browser5Repository.Dubber.IconCogIconWhite"
+				id="240bde9cae4f4062b1e53e8200914f64"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="131"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.637"
+			timeRelativeToTestModuleStartTime="00:11.638"
+			timeWallClock="08:33:16"
+			time="00:11.637"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DropDownLogout' at 72;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+				fullname="browser5Repository.Dubber.DropDownLogout"
+				id="699a49058092422d9db2d8d45b06f855"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="135"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.370"
+			timeRelativeToTestModuleStartTime="00:12.371"
+			timeWallClock="08:33:17"
+			time="00:12.370"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberGoogleChrome.Close' at 11;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Dubber']/button[@accessiblename='Close']"
+				fullname="browser5Repository.DubberGoogleChrome.Close"
+				id="961990718f86447bbd7841a7c3da1f4d"
+				timeout="60000"
+				codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\browser5\browser5\Recording1.cs"
+				codeline="139"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

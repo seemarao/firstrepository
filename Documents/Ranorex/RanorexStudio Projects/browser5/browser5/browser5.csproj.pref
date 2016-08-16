@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording2.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="browser5.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Recording2.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

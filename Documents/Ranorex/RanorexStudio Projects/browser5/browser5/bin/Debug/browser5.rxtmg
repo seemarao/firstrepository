@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="browser5"
+      id="5f3e617e-2049-46e3-8625-0858d8056ae1"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="browser5"
+      id="5f3e617e-2049-46e3-8625-0858d8056ae1"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
