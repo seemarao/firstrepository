@@ -1,0 +1,120 @@
+﻿<repository
+name="calculatorRepository"
+id="d6c41181-e7e9-4694-978a-084b5be23bf6"
+rxversion="6.0">
+	<codegen
+	classname="calculatorRepository"
+	namespace="calculator"/>
+	<rootfolder
+	name="Root"
+	id="d6e78d9a-5300-4c30-917c-84c59353f615"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Calculator"
+		id="9f1ccfa2-e779-4dff-925a-e8e72ee002cc"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Calculator']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="View"
+			id="92a5d07d-e768-40ef-995f-2b0a833821d5"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@title='Calculator']/menubar[@accessiblename='Application']/menuitem[@accessiblename='View']"
+			addcaps="menuitem,accessible"
+			refimgid="03ad6bb1-3fa7-4755-b33d-846edb88b17b">
+				/form[@title='Calculator']/?/?/menuitem[@accessiblename='View']
+			</item>
+			<item
+			name="Close"
+			id="0e8f7553-64fa-4b6c-bd87-997a60a8d58e"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Calculator']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="f16dfde3-0a1c-4a45-b6bf-c62d45530dd7">
+				/form[@title='Calculator']/?/?/button[@accessiblename='Close']
+			</item>
+			<folder
+			name="Calc"
+			id="3af4bb19-107c-4b5c-a9c3-62792fd61700"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Calculator']/element[@class='CalcFrame']/container[@class='#32770' and @instance='1']"
+			addcaps="container,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Button3"
+				id="f5c34454-00df-45d1-93b0-338914b35b52"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='121']"
+				addcaps="button,nativewindow"
+				refimgid="7a9c89f8-da83-4eea-93d0-566b91da0e85">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']
+				</item>
+				<item
+				name="Button2"
+				id="4ff2d549-0550-48d4-9d10-da12433cfcdb"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='133']"
+				addcaps="button,nativewindow"
+				refimgid="ee2da010-8950-4bef-bc09-db57245f1b4c">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='133']
+				</item>
+				<item
+				name="Button"
+				id="c8fdae74-52e8-42e8-af01-38fe61abce43"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='139']"
+				addcaps="button,nativewindow"
+				refimgid="c13f9e05-aa57-4c55-8e26-f0ba39d6ad93">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']
+				</item>
+				<item
+				name="Button1"
+				id="e0304fc3-73c7-4d6d-86c2-dc5af43baf45"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='92']"
+				addcaps="button,nativewindow"
+				refimgid="a40b6d2d-a1ef-4800-ac1a-fc850a311d8a">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']
+				</item>
+				<basepath>
+					/form[@title='Calculator']/?/?/container[@instance='1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Calculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKHSURBVDhPdZP7S1NhGMfX39UvpZVZZEFFhBBR
+VCASmd2JjAQlEG/NrJB5Y87bHEkZS2sXFbfp5jYzsaHnss1Nl+5sO2c7m2d+e8/ZZD8ce+DL9/3l
++3me57zn1RxWvWml+YFxhbs/7kfNqA93DV7c0ntwY2AJ1b0uXOtx4MrHOVzSWpiq9ulnxVip6iZ+
+ceyegPWdFAJE9G4GQU4EGxdBkfOfmIDVaBK/iS60fGOKsVKR7jD5wpAmK5E3Hj9aphPQLwVx/u1X
+FGOlkkef8G1ByOWxnz9AUswjkpQQ+JuDJyzCRmXAZyUMulica/qsBtSO+WEkgDQBCLkDxHgJ1N4+
+/JEs5pkMzIE0UqKEfgI4+2ZCDagZ8WHcW5ggns6T/fextpODKyjix0Yak2sCmUpCn4tBRcOYGnBv
+2KsA5C48gSjK5pEiY8uSw4mMhF4ngzMvDWrAHcMyRgmgxxlC9zyL90Rdswy0szQ6bTQ6rBTarZvQ
+ORicfq5XA26TO6fjWbjCadhonigFK52EhUrAspkga3CYWt+Fi03g1JMBNeDmoBsbBFA74sZ8kFfc
+cehsUnFzIA4nk0D5oz41QP7jVnZEssY29O4ohjxRGDwRDBdlXI5ghkyxGEyi7KFODajuW8RCSECb
+LYTdWAytVlZxrb3gQ0shcJ3H4I8KRwOu65ywMAIapxm8mKLw2kyjaYZBy08GHTYGI+4tJDo1WN1O
+Hw2QH8s0xePpFK10rP9CKd5gLrjOUZjAF/0P4OqnOc7KkhXsIbSSNTpmQ9DOhfBhIYweR5h8ly3Y
+GR7eiICTdTquGCvV5W5788V3Fq6q7bvyWCobTah4NarcefnjfqWrLDlcVqdrLqQ0mn9X3WpZlq3T
+HgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

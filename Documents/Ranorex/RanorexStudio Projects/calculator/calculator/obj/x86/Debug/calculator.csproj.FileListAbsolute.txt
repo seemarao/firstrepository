@@ -1,0 +1,8 @@
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\bin\Debug\calculator.rxtmg
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\bin\Debug\calculator.rxtst
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\obj\x86\Debug\calculator.csprojResolveAssemblyReference.cache
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\obj\x86\Debug\calculator.exe
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\obj\x86\Debug\calculator.pdb

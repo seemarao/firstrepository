@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25f1dfd3e6ebdb4a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Seema Rao"
+		host="PC3"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="22-07-2016 12:44:47"
+		timestampiso="2016-07-22T07:14:47"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="4.41s"
+			durationms="4411"
+			type="test suite"
+			rid="225ded3b8aee920"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="calculator"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="4.41s"
+				durationms="4406"
+				type="test case"
+				rid="ccf51106aed27f9"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="d2067ff1-9e34-4dba-a88f-0213570aa771"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="4.4s"
+					durationms="4401"
+					type="test module"
+					rid="dc6ad81b4e8c126"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="c59921a3-ab71-4c61-9a09-b23ae6c5d5d6"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.404"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="12:44:47"
+						time="00:00.404"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.487"
+						timeRelativeToTestModuleStartTime="00:00.086"
+						timeWallClock="12:44:47"
+						time="00:00.487"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button' at 13;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']"
+							fullname="calculatorRepository.Calculator.Calc.Button"
+							id="295881d0011840728e4183c1cc86feb3"
+							timeout="90000"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.777"
+						timeRelativeToTestModuleStartTime="00:01.376"
+						timeWallClock="12:44:49"
+						time="00:01.777"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button1' at 12;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+							fullname="calculatorRepository.Calculator.Calc.Button1"
+							id="7e73186b6c0d47729abed8b62864de53"
+							timeout="90000"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.523"
+						timeRelativeToTestModuleStartTime="00:02.122"
+						timeWallClock="12:44:49"
+						time="00:02.523"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button2' at 23;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='131']"
+							fullname="calculatorRepository.Calculator.Calc.Button2"
+							id="abf9197d26c44b649db01cfb36977be2"
+							timeout="90000"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.279"
+						timeRelativeToTestModuleStartTime="00:02.878"
+						timeWallClock="12:44:50"
+						time="00:03.279"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button3' at 16;42.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+							fullname="calculatorRepository.Calculator.Calc.Button3"
+							id="d67f7a8e777f401fbc3ca1c3a5eb5bdc"
+							timeout="90000"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.025"
+						timeRelativeToTestModuleStartTime="00:03.623"
+						timeWallClock="12:44:51"
+						time="00:04.025"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Close' at 27;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/button[@accessiblename='Close']"
+							fullname="calculatorRepository.Calculator.Close"
+							id="025a701b55f94a71a467a29316ff3020"
+							timeout="60000"
+							codefile="c:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\calculator\calculator\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
