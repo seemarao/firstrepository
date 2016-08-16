@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="imap1Repository"
+id="344b8522-5289-4b83-a133-7eac12e92187"
+rxversion="6.0">
+  <codegen
+  classname="imap1Repository"
+  namespace="imap1"/>
+  <rootfolder
+  name="Root"
+  id="014c5781-293a-4e4b-ae00-6de96e321183"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

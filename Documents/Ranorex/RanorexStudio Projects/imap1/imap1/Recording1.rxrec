@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="3884b0f7-3d64-4fc1-8bcb-62f87be77a8d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="imap1"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="imap1Repository"
+	id="344b8522-5289-4b83-a133-7eac12e92187"
+	rxversion="6.0"
+	relativepath="imap1Repository.rxrep">
+		<codegen
+		classname="imap1Repository"
+		namespace="imap1"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="014c5781-293a-4e4b-ae00-6de96e321183"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

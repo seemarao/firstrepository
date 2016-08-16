@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="imap1"
+      id="5f7fb863-0138-4041-8586-32da43108340"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="imap1"
+      id="5f7fb863-0138-4041-8586-32da43108340"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

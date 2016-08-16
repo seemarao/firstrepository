@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{F98E6E3B-D514-406D-86EB-C06D31D5F65D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>imap1</RootNamespace>
+    <AssemblyName>imap1</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>849def1b-bdfa-4e02-8fc3-2e4b4964bc70</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Email.NET">
+      <HintPath>..\..\..\..\..\Downloads\Email.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ImapX">
+      <HintPath>..\..\..\..\..\Downloads\ImapX.dll</HintPath>
+    </Reference>
+    <Reference Include="ImapX">
+      <HintPath>..\..\..\..\..\Downloads\ImapX.pdb</HintPath>
+    </Reference>
+    <Reference Include="ImapX">
+      <HintPath>..\..\..\..\..\Downloads\ImapX.XML</HintPath>
+    </Reference>
+    <Reference Include="Mail">
+      <HintPath>..\..\..\..\..\Downloads\Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>64684037-f0c4-4415-8106-8a551433f781</id>
+    </Compile>
+    <Compile Include="imap1Repository.cs">
+      <BoundTo>849def1b-bdfa-4e02-8fc3-2e4b4964bc70</BoundTo>
+      <DependentUpon>imap1Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c3323386-f497-4545-a499-a8d5ce5068fa</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>dc94eb8c-e1c3-4a57-9861-7ea2f3736ed1</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>ea4ea7c1-ad7e-49ab-922a-0b41fdcae350</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d457cefc-f584-4553-ad8b-e4b4774557fa</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>ea4ea7c1-ad7e-49ab-922a-0b41fdcae350</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5c4d2f4-3f4f-459a-b03e-8634064d31ce</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>85c329ca-1a43-4c26-8557-f336a9d3e66c</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>374e5310-9651-4621-ac98-e8144e17233a</id>
+    </None>
+    <None Include="imap1Repository.rximg">
+      <BoundTo>849def1b-bdfa-4e02-8fc3-2e4b4964bc70</BoundTo>
+      <DependentUpon>imap1Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f0d837e3-79fc-41d9-9685-c03f8e6a6b06</id>
+    </None>
+    <None Include="imap1Repository.rxrep">
+      <id>849def1b-bdfa-4e02-8fc3-2e4b4964bc70</id>
+      <repoid>344b8522-5289-4b83-a133-7eac12e92187</repoid>
+      <reporootid>014c5781-293a-4e4b-ae00-6de96e321183</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>849def1b-bdfa-4e02-8fc3-2e4b4964bc70</BoundTo>
+      <id>ea4ea7c1-ad7e-49ab-922a-0b41fdcae350</id>
+      <recordtableid>3884b0f7-3d64-4fc1-8bcb-62f87be77a8d</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imap1.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2e0167f5-87cc-45aa-9eb2-c5a8eff54787</id>
+    </Content>
+    <Content Include="imap1.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7c070c73-055f-4b84-a742-9c97b9c87a3d</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

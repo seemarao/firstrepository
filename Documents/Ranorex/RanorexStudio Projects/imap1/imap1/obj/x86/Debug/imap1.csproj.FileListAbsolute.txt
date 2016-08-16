@@ -1,0 +1,9 @@
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\imap1.rxtmg
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\imap1.rxtst
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\imap1.exe.config
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\imap1.exe
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\imap1.pdb
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\bin\Debug\Email.NET.dll
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\obj\x86\Debug\imap1.csprojResolveAssemblyReference.cache
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\obj\x86\Debug\imap1.exe
+C:\Users\Seema Rao\Documents\Ranorex\RanorexStudio Projects\imap1\imap1\obj\x86\Debug\imap1.pdb

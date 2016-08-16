@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c2c3aec7e140ec"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Seema Rao"
+		host="PC3"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="02-08-2016 09:07:53"
+		timestampiso="2016-08-02T03:37:53"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<varbindings/>
+	</activity>
+</report>
