@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="binding"
+      id="8c841917-18bd-4ac9-acf0-f50e5c14055a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="binding"
+      id="8c841917-18bd-4ac9-acf0-f50e5c14055a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
